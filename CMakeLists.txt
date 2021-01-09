@@ -5,7 +5,7 @@ set(CMAKE_C_STANDARD 99)
 
 find_package(OpenMP REQUIRED)
 
-add_executable(MPI mpi.c openmp.c)
+add_executable(MPI mpi.c openmp.c summation1.c)
 set(CMAKE_C_COMPILER mpicc)
 set(CMAKE_CXX_COMPILER mpicxx)
 

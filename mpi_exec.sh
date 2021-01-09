@@ -1,3 +1,3 @@
 #!/bin/bash
-mpicc mpi.c -o mpi
+mpicc summation1.c -o mpi
 mpirun -np 4 ./mpi
